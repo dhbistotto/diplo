@@ -1,0 +1,61 @@
+body {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: #d9e1ef;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 7px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#encabezado {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+ul,
+ol {
+    padding-left: 100px;
+    margin-bottom: 100px;
+    color: dimgray;
+}
+
+
+.tipograf {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p {
+    color: rgb(89, 42, 165);
+}
+
+a {
+    color: rgb(89, 42, 165);
+    /* Cambia el color del texto del enlace a azul (#007bff es un azul común) */
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+}
+
+p {
+    margin-top: 5;
+    margin-bottom: 20;
+}
