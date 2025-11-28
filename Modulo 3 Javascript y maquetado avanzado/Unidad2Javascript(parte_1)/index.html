@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Script JS</title>
+</head>
+<body>
+    <h1>¡Hola! Mirá la consola.</h1>
+
+    <script>
+    /*  Primera Prueba
+
+        const edad = 4.5;
+        console.log(edad);*/
+
+    /* Segunda 
+        const edad = 18;
+    if(edad >= 10){
+        alert('Eres mayor')   
+    }
+    else
+    {
+        alert('Eres menor')
+    }    
+    */
+
+    /* Ejercicio N1
+
+    let producto = 'Laptop';
+    let precio = 100;
+    let disponible = true;
+
+    console.log(`El producto ${producto} tiene un precio ${precio} y su dsiponibilidad es : ${disponible}`)
+    */
+
+/*     Ejercicio N2 
+    const metros = 10041;
+
+    switch (true){
+        case (metros < 1000): 
+        console.log('A pie')
+        break;
+        case  (metros >= 1000 && metros < 10000): 
+        console.log('En bici')
+        break;
+
+        case  (metros >= 10000 && metros < 30000): 
+        console.log('En Cole')
+        break;
+        case  (metros >= 30000 && metros < 100000): 
+        console.log('En Auto')
+        break;
+        default:
+        console.log('En Avion')            
+    }
+
+    */
+
+    /* Ejercicio N3 
+
+        let productos = ['cacao','servilleta','leche','pan','azucar','yerba'];
+        
+
+        for (let contado = 0; contado < 5; contado++) {
+            console.log(`No te olvides de comprar: ${(productos[contado])}`);
+
+        }
+
+    */    
+
+        let numeros = [14,122,1,1555,6,15];
+        
+        let mayor = numeros[0];        
+
+        for (let contador = 1; contador < 5; contador++) {
+            if(mayor < numeros[contador]){
+                let mayor = numeros[contador];
+            }
+
+        }
+        console.log(mayor);
+
+    </script>
+</body>
+</html>
