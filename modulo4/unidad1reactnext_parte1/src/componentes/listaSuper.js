@@ -6,7 +6,7 @@ export function ListaProductos(props) {
                 {props.items.map( item => (
                    
                    <li key={item.id}>
-                        Producto: {item.nombre} - Precio: $(item.precio)
+                        Producto: {item.nombre} - Precio: ${item.precio}
                     </li>
                    
                 ))}
