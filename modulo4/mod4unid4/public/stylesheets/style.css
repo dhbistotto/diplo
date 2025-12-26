@@ -1,0 +1,40 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgba(148, 213, 190, 0.703);
+    padding: 16px 0;
+}
+
+header h1 {
+    color: rgb(62, 48, 164);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgb(184, 142, 222);
+}
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+h2 {
+    color: rgb(68, 94, 42);
+    font-weight: 400;
+}   
